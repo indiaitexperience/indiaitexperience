@@ -1,0 +1,638 @@
+<html lang="en"><head><style type="text/css">.swal-icon--error{border-color:#f27474;-webkit-animation:animateErrorIcon .5s;animation:animateErrorIcon .5s}.swal-icon--error__x-mark{position:relative;display:block;-webkit-animation:animateXMark .5s;animation:animateXMark .5s}.swal-icon--error__line{position:absolute;height:5px;width:47px;background-color:#f27474;display:block;top:37px;border-radius:2px}.swal-icon--error__line--left{-webkit-transform:rotate(45deg);transform:rotate(45deg);left:17px}.swal-icon--error__line--right{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);right:16px}@-webkit-keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@-webkit-keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}@keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}.swal-icon--warning{border-color:#f8bb86;-webkit-animation:pulseWarning .75s infinite alternate;animation:pulseWarning .75s infinite alternate}.swal-icon--warning__body{width:5px;height:47px;top:10px;border-radius:2px;margin-left:-2px}.swal-icon--warning__body,.swal-icon--warning__dot{position:absolute;left:50%;background-color:#f8bb86}.swal-icon--warning__dot{width:7px;height:7px;border-radius:50%;margin-left:-4px;bottom:-11px}@-webkit-keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}@keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}.swal-icon--success{border-color:#a5dc86}.swal-icon--success:after,.swal-icon--success:before{content:"";border-radius:50%;position:absolute;width:60px;height:120px;background:#fff;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal-icon--success:before{border-radius:120px 0 0 120px;top:-7px;left:-33px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.swal-icon--success:after{border-radius:0 120px 120px 0;top:-11px;left:30px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 60px;transform-origin:0 60px;-webkit-animation:rotatePlaceholder 4.25s ease-in;animation:rotatePlaceholder 4.25s ease-in}.swal-icon--success__ring{width:80px;height:80px;border:4px solid hsla(98,55%,69%,.2);border-radius:50%;box-sizing:content-box;position:absolute;left:-4px;top:-4px;z-index:2}.swal-icon--success__hide-corners{width:5px;height:90px;background-color:#fff;padding:1px;position:absolute;left:28px;top:8px;z-index:1;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal-icon--success__line{height:5px;background-color:#a5dc86;display:block;border-radius:2px;position:absolute;z-index:2}.swal-icon--success__line--tip{width:25px;left:14px;top:46px;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-animation:animateSuccessTip .75s;animation:animateSuccessTip .75s}.swal-icon--success__line--long{width:47px;right:8px;top:38px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:animateSuccessLong .75s;animation:animateSuccessLong .75s}@-webkit-keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@-webkit-keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}@keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}.swal-icon--info{border-color:#c9dae1}.swal-icon--info:before{width:5px;height:29px;bottom:17px;border-radius:2px;margin-left:-2px}.swal-icon--info:after,.swal-icon--info:before{content:"";position:absolute;left:50%;background-color:#c9dae1}.swal-icon--info:after{width:7px;height:7px;border-radius:50%;margin-left:-3px;top:19px}.swal-icon{width:80px;height:80px;border-width:4px;border-style:solid;border-radius:50%;padding:0;position:relative;box-sizing:content-box;margin:20px auto}.swal-icon:first-child{margin-top:32px}.swal-icon--custom{width:auto;height:auto;max-width:100%;border:none;border-radius:0}.swal-icon img{max-width:100%;max-height:100%}.swal-title{color:rgba(0,0,0,.65);font-weight:600;text-transform:none;position:relative;display:block;padding:13px 16px;font-size:27px;line-height:normal;text-align:center;margin-bottom:0}.swal-title:first-child{margin-top:26px}.swal-title:not(:first-child){padding-bottom:0}.swal-title:not(:last-child){margin-bottom:13px}.swal-text{font-size:16px;position:relative;float:none;line-height:normal;vertical-align:top;text-align:left;display:inline-block;margin:0;padding:0 10px;font-weight:400;color:rgba(0,0,0,.64);max-width:calc(100% - 20px);overflow-wrap:break-word;box-sizing:border-box}.swal-text:first-child{margin-top:45px}.swal-text:last-child{margin-bottom:45px}.swal-footer{text-align:right;padding-top:13px;margin-top:13px;padding:13px 16px;border-radius:inherit;border-top-left-radius:0;border-top-right-radius:0}.swal-button-container{margin:5px;display:inline-block;position:relative}.swal-button{background-color:#7cd1f9;color:#fff;border:none;box-shadow:none;border-radius:5px;font-weight:600;font-size:14px;padding:10px 24px;margin:0;cursor:pointer}.swal-button:not([disabled]):hover{background-color:#78cbf2}.swal-button:active{background-color:#70bce0}.swal-button:focus{outline:none;box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(43,114,165,.29)}.swal-button[disabled]{opacity:.5;cursor:default}.swal-button::-moz-focus-inner{border:0}.swal-button--cancel{color:#555;background-color:#efefef}.swal-button--cancel:not([disabled]):hover{background-color:#e8e8e8}.swal-button--cancel:active{background-color:#d7d7d7}.swal-button--cancel:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(116,136,150,.29)}.swal-button--danger{background-color:#e64942}.swal-button--danger:not([disabled]):hover{background-color:#df4740}.swal-button--danger:active{background-color:#cf423b}.swal-button--danger:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(165,43,43,.29)}.swal-content{padding:0 20px;margin-top:20px;font-size:medium}.swal-content:last-child{margin-bottom:20px}.swal-content__input,.swal-content__textarea{-webkit-appearance:none;background-color:#fff;border:none;font-size:14px;display:block;box-sizing:border-box;width:100%;border:1px solid rgba(0,0,0,.14);padding:10px 13px;border-radius:2px;transition:border-color .2s}.swal-content__input:focus,.swal-content__textarea:focus{outline:none;border-color:#6db8ff}.swal-content__textarea{resize:vertical}.swal-button--loading{color:transparent}.swal-button--loading~.swal-button__loader{opacity:1}.swal-button__loader{position:absolute;height:auto;width:43px;z-index:2;left:50%;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center;pointer-events:none;opacity:0}.swal-button__loader div{display:inline-block;float:none;vertical-align:baseline;width:9px;height:9px;padding:0;border:none;margin:2px;opacity:.4;border-radius:7px;background-color:hsla(0,0%,100%,.9);transition:background .2s;-webkit-animation:swal-loading-anim 1s infinite;animation:swal-loading-anim 1s infinite}.swal-button__loader div:nth-child(3n+2){-webkit-animation-delay:.15s;animation-delay:.15s}.swal-button__loader div:nth-child(3n+3){-webkit-animation-delay:.3s;animation-delay:.3s}@-webkit-keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}@keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}.swal-overlay{position:fixed;top:0;bottom:0;left:0;right:0;text-align:center;font-size:0;overflow-y:auto;background-color:rgba(0,0,0,.4);z-index:10000;pointer-events:none;opacity:0;transition:opacity .3s}.swal-overlay:before{content:" ";display:inline-block;vertical-align:middle;height:100%}.swal-overlay--show-modal{opacity:1;pointer-events:auto}.swal-overlay--show-modal .swal-modal{opacity:1;pointer-events:auto;box-sizing:border-box;-webkit-animation:showSweetAlert .3s;animation:showSweetAlert .3s;will-change:transform}.swal-modal{width:478px;opacity:0;pointer-events:none;background-color:#fff;text-align:center;border-radius:5px;position:static;margin:20px auto;display:inline-block;vertical-align:middle;-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;z-index:10001;transition:opacity .2s,-webkit-transform .3s;transition:transform .3s,opacity .2s;transition:transform .3s,opacity .2s,-webkit-transform .3s}@media (max-width:500px){.swal-modal{width:calc(100% - 20px)}}@-webkit-keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}@keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}</style>
+    <meta charset="utf-8">
+    <meta name="description" content="Best Experience Certificate Provider in Hyderabad Mumbai Chennai Bengaluru Kolkata Delhi Noida Pune and Other City with 100% Verification Guaranteed.">
+    <meta name="google-site-verification" content="FZWoBu5AZ6eStQVc9KJe8AvlhRoSlAtiQyXLLiG83Jw">
+    <meta name="facebook-domain-verification" content="m3ddoa5zbbyax1pnpbyk3fvcr8g221">
+    <title>Experience Certificate India - Privacy Policy</title>
+    <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="https://experiencecertificateindia.com/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="Experience Certificate Provider" content="yes">
+    <meta name="author" content="Experience Certificate Provider - Internship Certificate | India">
+    <meta name="technologies" content="Developer, Engineer, Software, Server, Search Engines, Open Source, Civil, Graduate Engineer Trainee, Electrical Engineering, Electronics Engineer, Internship, Microsoft, Oracle, SAP, Java, Outsourcing, Testing Services, SOA, IOS, Android, Symbian Human Resources, Financial services, Business Intelligence, Business Consulting, Future IT CloudInnovation, Manufacturing, Sales, Production, Finance &amp; Account ">
+    <meta property="fb:app_id" content="126614372245894">
+    <meta name="robots" content="index, follow">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Experience Certificate India - Privacy Policy">
+    <meta property="og:description" content="Best Experience Certificate Provider in Hyderabad Mumbai Chennai Bengaluru Kolkata Delhi Noida Pune and Other City with 100% Verification Guaranteed.">
+    <meta property="og:url" content="https://experiencecertificateindia.com/">
+    <meta property="og:site_name" content="Best Experience Certificate Provider">
+    <meta property="og:image" content="https://experiencecertificateindia.com/EXCP-India.jpg">
+    <meta name="twitter:site" content="https://experiencecertificateindia.com/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Genuine Experience Certificate Provider">
+    <meta name="twitter:description" content="Best Experience Certificate Provider in Hyderabad Mumbai Chennai Bengaluru Kolkata Delhi Noida Pune and Other City with 100% Verification Guaranteed.">
+    <meta name="twitter:image" content="https://experiencecertificateindia.com/EXCP-India.jpg">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="yandex-verification" content="af71994724714b35">
+    <link rel="icon" href="EXCP-India.jpg">
+    <link href="https://experiencecertificateindia.com/css/bootstrap.min.css" rel="stylesheet" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link href="https://experiencecertificateindia.com/css/font-awsome.css" rel="stylesheet" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=devanagari" rel="stylesheet" media="all" onload="if(media!='all')media='all'">
+    <link href="https://experiencecertificateindia.com/css/style.css" rel="stylesheet">
+    <link href="https://experiencecertificateindia.com/css/media-query.css" rel="stylesheet">
+    <link href="https://experiencecertificateindia.com/css/hover-min.css" rel="stylesheet" media="all" onload="if(media!='all')media='all'">
+    <link href="https://experiencecertificateindia.com/css/animate.min.css" rel="stylesheet" media="all" onload="if(media!='all')media='all'">
+<style></style><style>.allow-copy_cover {
+  --yellow: #ffbb09;
+  --yellow-light: #ffc93c;
+  --yellow-lighter: #ffd76f;
+  --black: #000000;
+  --black-light: #111111;
+  --black-lighter: #2a2a2a;
+  --border-gray: #e8e8e8;
+  --text: #666;
+  --white: #ffffff;
+  --font-size: 16px;
+  color: var(--text);
+  font-size: var(--font-size);
+  font-family: "Rubik", sans-serif;
+}
+
+.allow-copy_cover {
+  box-sizing: border-box;
+  border: 5px dashed var(--yellow-lighter);
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 0px;
+  height: 0px;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.6s;
+  overflow: visible;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.allow-copy_cover .allow-copy_detected-text-line {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -5px;
+  margin-left: -5px;
+}
+
+.allow-copy_cover .allow-copy_detected-text-line:after {
+  content: "";
+  position: absolute;
+  height: 150%;
+  width: 150%;
+  background: rgba(255, 255, 255, 0.9);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.allow-copy_cover.allow-copy_cover__on-elem {
+  opacity: 1;
+  z-index: 2147483647;
+}
+
+.allow-copy_cover .allow-copy_cover-actions {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: -5px;
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+  align-items: center;
+  background-color: var(--yellow-light);
+}
+
+.allow-copy_cover .allow-copy_cover-action {
+  box-sizing: border-box;
+  margin: 0 0 0 0;
+
+  padding: 0;
+
+  z-index: 1;
+  cursor: pointer;
+  display: inline-block;
+
+  color: var(--black-lighter);
+}
+.allow-copy_cover .allow-copy_cover-action svg {
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+}
+
+.allow-copy_cover .allow-copy_cover-action:hover {
+  color: var(--black-light);
+  transform: scale(1.1);
+}
+
+.allow-copy_cover.allow-copy__hidden,
+.allow-copy_cover .allow-copy__hidden {
+  display: none;
+}
+.allow-copy_cover.allow-copy__not-allowed,
+.allow-copy_cover .allow-copy__not-allowed {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.allow-copy_cover.allow-copy__pending,
+.allow-copy_cover .allow-copy__pending {
+  pointer-events: none;
+  animation: pulse 0.5s infinite ease-in-out alternate;
+}
+.allow-copy_cover-action.allow-copy_grab-action {
+}
+.allow-copy_cover-action.allow-copy_copy-to-clipboard-action {
+}
+.allow-copy_cover-action.allow-copy_copy-to-clipboard-action {
+}
+
+.allow-copy_cover.allow-copy_cover__minimized {
+  width: auto !important;
+  height: auto !important;
+}
+.allow-copy_cover.allow-copy_cover__minimized .allow-copy_detected-text-line {
+  display: none !important;
+}
+
+.allow-copy_cover .allow-copy__beta-testing-label {
+  color: var(--black-lighter);
+  top: 0;
+  right: 0;
+  position: absolute;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: var(--yellow-light);
+  margin: -5px -5px 0 0;
+  padding: 9px;
+  display: inline-flex;
+  align-items: center;
+}
+.allow-copy_cover .allow-copy__settings svg {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  cursor: pointer;
+}
+.allow-copy_cover .allow-copy_beta-icon {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.allow-copy_cover.allow-copy_cover__minimized .allow-copy__beta-testing-label {
+  display: none;
+}
+
+.allow-copy_cover.allow-copy_cover__minimized .allow-copy_beta-icon {
+  display: inline-block;
+}
+
+/* .pulse {
+  animation: pulse 1s infinite ease-in-out alternate;
+} */
+
+.allow-copy_info-alert {
+  --yellow: #ffbb09;
+  --yellow-light: #ffc93c;
+  --yellow-lighter: #ffd76f;
+  --black: #000000;
+  --black-light: #111111;
+  --black-lighter: #2a2a2a;
+  --border-gray: #e8e8e8;
+  --text: #666;
+  --white: #ffffff;
+
+  z-index: 9999;
+  background-color: #fff;
+  border-radius: 4px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: calc(100% - 20px);
+  width: 400px;
+  height: 250px;
+  box-sizing: border-box;
+  padding: 20px;
+  max-height: calc(100% - 20px);
+  box-shadow: rgb(0 0 0 / 20%) 0px 11px 15px -7px,
+    rgb(0 0 0 / 14%) 0px 24px 38px 3px, rgb(0 0 0 / 12%) 0px 9px 46px 8px;
+}
+.allow-copy_info-alert {
+  display: flex;
+  flex-direction: column;
+}
+
+.allow-copy_info-alert .allow-copy_info-alert__message {
+  flex: 1 0;
+  padding: 20px 0;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 1.3;
+  font-weight: bold;
+  font-family: SANS-SERIF, "Open Sans", sans-serif, Robota;
+}
+
+.allow-copy_info-alert .allow-copy_info-alert__ok-btn {
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: var(--yellow-light);
+  border: 1px solid var(--yellow);
+  border-radius: 0.25em;
+  padding: 0.5em 1em;
+  min-width: 8em;
+  margin: 0em 0em;
+  cursor: pointer;
+  display: inline-block;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+</style></head>
+
+<body oncontextmenu="return false;" class="loaded experiencecertificateindia_com" style="overflow: hidden;">
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N6B2HLM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div id="loader-wrapper"><div id="loader"></div><div class="loader-section section-left"></div><div class="loader-section section-right"></div></div> <section class="topest-head"><div class="container-fluid"><div class="row flex-column-reverse flex-md-row"><div class="col-lg-6 col-md-6 col-sm-12"><div class="external-lik-icon"><ul><li><a href="https://www.facebook.com/experiencecertificateprovider" target="_blank"><i class="fab fa-facebook-f"></i></a></li><li><a href="https://www.linkedin.com/in/experience-certificate/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li></ul></div></div><div class="col-lg-6 col-md-6 col-sm-12"><div class="social-icon"><ul><li><a href="https://twitter.com/expcertificate" target="_blank"><i class="fab fa-twitter"></i></a></li><li><a href="https://www.instagram.com/experiencecertificateprovider/" target="_blank"><i class="fab fa-instagram"></i></a></li></ul></div></div></div></div> </section> <nav class="navbar navbar-expand-lg navbar-dark"><div class="container-fluid"> <a class="exp-logo" href="index.php"> <img src="logo.png" alt="Experience certificate India"> </a> <button class="navbar-toggler my-menue-sly" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button><div class="collapse navbar-collapse justify-content-end show-quicky-contatee" id="navbarSupportedContent"><ul class="nav"><li class="nav-item"><a class="lincalling-iconics-x p-x" href="tel:+919560241239"><i class="fal fa-mobile-alt"></i></a></li><li class="nav-item"><a class="whatsapp-iconics-x" href="https://wa.me/919560241239?text=Our%20dedicated%20team%20of%20experts%20ensures%20you%20get%20your%20requirements%20fulfilled%20by%20providing%20authentic%20and%20trustworthy%20certifications%20and%20information.%0A%0AWe%20are%20open%20to%20chatting%20around%20the%20dial%20so%20you%20can%20leave%20a%20message%20to%20talk%20to%20our%20team.%20WhatsApp%20us%2C%20and%20you%20will%20get%20all%20the%20information%20you%20need%20to%20get%20your%20hands%20on%20that%20certificate%20which%20will%20lead%20you%20to%20your%20dream%20job!%20" target="_blank"><i class="fab fa-whatsapp inquery-whatsapp"></i></a></li><li class="nav-item"><a class="mail-iconics-x" href="mailto:help@experiencecertificateindia.com"><i class="fal fa-envelope"></i></a></li></ul></div></div> </nav> <section class="bane-legl"><div class="privacypolcy"></div><div class="clearfix"></div><div class="legle_content"><h1 class="legle-heading">Privacy Policy</h1></div> </section> <section><div class="container-fluid"><div class="row"><div class="col-md-12"><div class="generl"><h2>Privacy Policy Guidlines</h2><p>Experience certificate India is a recruiter firm. Our services include providing jobs to qualified people who have potential to work but are not able to get the job for any reason. We act as a road of your success.</p><p>When you use our services, you will share some of your personal information with us. So we want to be very upfront about the privacy policy and the information you will provide in order to maintain transparency. We have written this to solve your queries like how we will collect information from you, who will use the information, who we share it with and the involvement of the third party.</p><p>This privacy policy has been written in less legalese language so that it will be helpful to solve many of your unwanted questions.</p><h2>What We Do at Experience Certificate India</h2><p>Experience Certificate India empowers you to foster your growth by giving you jobs at your footsteps. We are affiliated with various companies, committed to respect your private information and acknowledge the need for appropriate protection of online data and management of any personal identifiable information you share with us. This privacy policy is only for those who visit to this platform or whose information we otherwise receive in connection to our services.</p><ul class="higlight-legal"><h3>Types of Information Collected</h3><li>Name, phone-no, e-mail address, password, bank account details.</li><li>Information that one would use in their resume, including name, phone-no, email address password, work experience, qualification about the services you use.</li><li>We can use your personal information in order to maintain transparency between us.</li><li>Chats will be the only source of valid evidence for any future mishappening and no verbal communication would be entertained as the evidence.</li><li>To the extent permitted by law, we may record and monitor your communication with us to make sure compliance with our legal and regulatory obligations.</li></ul><ul class="higlight-legal"><h3>We Collect Information in Different Ways</h3><li><h4>We Collect Information Directly from You</h4><p>We collect information directly from you when you register yourself for the recruitment of job. We also collect information from you when you register yourself for payment process.</p></li><li><h4>We Collect Information from You Passively</h4><p>We use tracking tools for collecting information about your usage of our website.</p></li></ul><ul class="higlight-legal"><h3>How We Use Your Personal Information</h3><li><h4>We Use Your Personal Information to Contact You;</h4><p>We will use your personal information to contact you for the confirmation of the payment process or the payable amount; we also need you personal information to contact you for informing you about any details.</p></li><li><h4>We Use Your Personal Information to Reply To Your Queries;</h4><p>We use tracking tools for collecting information about your usage of our website.</p></li><li><h4>We Use Your Personal Information for Security Reasons;</h4><p>We will use your personal information to keep a track on you and to ensure that you are legally registered in this country and we may use your information to protect our company, our customers and our website.</p></li><li><h4>We Use Your Personal Information for Your Promotion;</h4><p>We will use your personal information in order to forward it to related third parties or for later promotional purposes, so that your resume will reach to your dream company.</p></li></ul><h2>Payment Policy (Terms and Conditions)</h2><p>We would like to update you with all the terms and conditions of the payment process before you start any consultancy work. The chat between us will be used as a proof of discussion about your case recording. Everything will be review on the basis of chat records, if future misunderstanding happens. Verbal communication might create chaos, so for lucidity everything is needed to be in written form.</p><ul class="higlight-legal"><li>You have to clear your payment with completion of documentation, no guarantee of job is provided by us. Our company has this promising nature of providing you with the best options but we don’t take any guarantee whether you will get the job or not.</li><li>We take guarantee of your employment verification part only.</li><li>One week is required for the successful completion of the whole process, after that you have to confirm the payable amount to us.</li><li>You can’t extend it to one week or put on hold in the mid.</li></ul><h2>Third Party Involvement</h2><p>We are not dealing with any third party consultancy or third person; if we find any then we immediately cancel your whole process.</p><p><b>THIRD PARTY CONTENT-</b>Our Company contains links to other sites that are not governed by the privacy policy. User may be directed to the third party sites for more information.</p><h2>Changes to This Privacy Policy</h2><p>We reserve the rights to update, change and modify this private policy at any time. This privacy policy shall come to effect from the date of publication of such update, change or modification.</p><h2>Disclaimer</h2><p>We do not record any account details or any debit/credit card information. We shall not be liable for any loss or damages sustained by the user as a result of any disclosure of any information concerning the account details of the user’s account, credit card details or debit card details.</p><h2>Grievance Officer</h2><p>In case you have any query or grievance regarding sharing your personal information, you can send your complaints to the phone-no given below to our grievance officer;</p><div class="higlight-legal"><h3>Contact:</h3><h4>Mr. Rohit</h4><h5>Experience Certificate India</h5><h6>#19, 19<sup>th</sup> B Cross, Near Rama Temple, <br> Sri Ram Temple Road, Ejipura, Bangalore-560029</h6><h6>E-mail : help@experiencecertificateindia.com</h6><h6 class="lel-end">Phone: (+91) 956024 1239</h6></div></div></div></div></div> </section> <footer class="bg-footer"><ul class="footer-content"><li><a href="https://experiencecertificateindia.com/">Copyright © 2021 Experience Certificate India.</a></li><ul class="inner-foter"><li><a href="about.php">About US</a></li><li><a href="privacy-policy.php">Privacy Policy</a></li><li><a href="refund-policy.php">Refund Policy</a></li></ul></ul> </footer> <a href="javascript:" id="return-to-top"><i class="fas fa-chevron-up"></i></a>
+    <!-- Bootstrap core JavaScript
+================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script gtm="GTM-N6B2HLM" type="text/javascript" async="" src="https://www.google-analytics.com/gtm/optimize.js?id=OPT-T5SVSPG"></script><script gtm="GTM-N6B2HLM" type="text/javascript" async="" src="https://www.google-analytics.com/gtm/optimize.js?id=OPT-T5SVSPG"></script><script gtm="GTM-N6B2HLM" type="text/javascript" async="" src="https://www.google-analytics.com/gtm/optimize.js?id=OPT-T5SVSPG"></script><script gtm="GTM-N6B2HLM" type="text/javascript" async="" src="https://www.google-analytics.com/gtm/optimize.js?id=OPT-T5SVSPG"></script><script gtm="GTM-N6B2HLM" type="text/javascript" async="" src="https://www.google-analytics.com/gtm/optimize.js?id=OPT-T5SVSPG"></script><script src="https://connect.facebook.net/signals/config/396938915841029?v=2.9.134&amp;r=stable&amp;domain=experiencecertificateindia.com" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="https://certify-js.alexametrics.com/atrk.js"></script><script type="text/javascript" async="" src="https://certify-js.alexametrics.com/atrk.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-V1NKGXK4J4&amp;l=dataLayer&amp;cx=c"></script><script type="text/javascript" async="" src="https://certify-js.alexametrics.com/atrk.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-N6B2HLM"></script><script src="https://experiencecertificateindia.com/js/jquery-3.4.1.min.js"></script>
+    <script src="https://experiencecertificateindia.com/js/bootstrap.bundle.min.js"></script>
+    <script src="https://experiencecertificateindia.com/js/jquery.nicescroll.iframehelper.min.js"></script>
+    <script src="https://experiencecertificateindia.com/js/jquery.nicescroll.js"></script>
+    <script src="https://experiencecertificateindia.com/js/jquery.touchSwipe.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://experiencecertificateindia.com/js/expandable.js" async=""></script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(a, b, c, d, e) {
+            a[d] = a[d] || [], a[d].push({
+                "gtm.start": new Date().getTime(),
+                event: "gtm.js"
+            });
+            var g = b.getElementsByTagName(c)[0],
+                f = b.createElement(c),
+                h = "dataLayer" == d ? "" : "&l=" + d;
+            f.async = !0, f.src = "https://www.googletagmanager.com/gtm.js?id=" + e + h, g.parentNode.insertBefore(f, g)
+        })(window, document, "script", "dataLayer", "GTM-N6B2HLM");
+    </script>
+    <!-- End Google Tag Manager -->
+    <!--Site Verification Part Start-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-175173021-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments)
+        }
+        gtag("js", new Date), gtag("config", "UA-175173021-1");
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-LYG45CQ107"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments)
+        }
+        gtag("js", new Date), gtag("config", "G-LYG45CQ107");
+    </script>
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script>
+        const observer = new PerformanceObserver(a => {
+            for (const b of a.getEntries()) {
+                const a = b.name,
+                    c = Math.round(b.startTime + b.duration);
+                ga("send", "event", {
+                    eventCategory: "Performance Metrics",
+                    eventAction: a,
+                    eventValue: c,
+                    nonInteraction: !0
+                })
+            }
+        });
+        observer.observe({
+            entryTypes: ["paint"]
+        });
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments)
+        }
+        gtag("js", new Date), gtag("config", "UA-175173021-1");
+    </script>
+    <script>
+        window.__trackAbandons = () => {
+            document.removeEventListener("visibilitychange", window.__trackAbandons);
+            const a = document.cookie.replace(/(?:(?:^|.*;)s*_gas*=s*(?:w+.d.)([^;]*).*$)|^.*$/, "$1"),
+                b = a || Math.random() * Math.pow(2, 52);
+            navigator.sendBeacon && navigator.sendBeacon("https://www.google-analytics.com/collect", ["v=1", "t=event", "ec=Load", "ea=abandon", "ni=1", "dl=" + encodeURIComponent(location.href), "dt=" + encodeURIComponent(document.title), "tid=" + "UA-175173021-1", "cid=" + b, "ev=" + Math.round(performance.now())].join("&"))
+        }, document.addEventListener("visibilitychange", window.__trackAbandons);
+    </script>
+    <!--Google Page Speed Tags & Tracking Code End -->
+    <!--Site Verification Part End-->
+    <script async="" custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <script type="text/javascript">
+        _atrk_opts = {
+                atrk_acct: "6pkdv1hNdI20fn",
+                domain: "experiencecertificateindia.com",
+                dynamic: !0
+            },
+            function() {
+                var a = document.createElement("script");
+                a.type = "text/javascript", a.async = !0, a.src = "https://certify-js.alexametrics.com/atrk.js";
+                var b = document.getElementsByTagName("script")[0];
+                b.parentNode.insertBefore(a, b)
+            }();
+    </script>
+    <noscript><img src="https://certify.alexametrics.com/atrk.gif?account=6pkdv1hNdI20fn" style="display:none" height="1" width="1" alt="" /></noscript>
+    <script src="https://experiencecertificateindia.com/js/tti-polyfill.js"></script>
+    <script>
+        ttiPolyfill.getFirstConsistentlyInteractive().then(a => {
+            ga("send", "event", {
+                eventCategory: "Performance Metrics",
+                eventAction: "TTI",
+                eventValue: a,
+                nonInteraction: !0
+            })
+        });
+    </script>
+    <script>
+        ! function() {
+            if ("PerformanceLongTaskTiming" in window) {
+                var a = window.__tti = {
+                    e: []
+                };
+                a.o = new PerformanceObserver(function(b) {
+                    a.e = a.e.concat(b.getEntries())
+                }), a.o.observe({
+                    entryTypes: ["longtask"]
+                })
+            }
+        }();
+    </script>
+    <script src="https://experiencecertificateindia.com/js/snippet.js" async=""></script>
+    <!--Google Page Speed Tags & Tracking Code End -->
+    <script>
+        $(document).ready(function() {
+            setTimeout(function() {
+                $("body").addClass("loaded")
+            }, 6000)
+        });
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [{
+                "@type": "WebSite",
+                "name": "Genuine Experience Certificate provider",
+                "image": "https://experiencecertificateindia.com/image/verification-guaranty.png",
+                "email": "help@experiencecertificateindia.com",
+                "@id": "https://experiencecertificateindia.com/#website",
+                "url": "https://experiencecertificateindia.com/",
+                "inLanguage": "en-US",
+                "description": "Genuine Experience Certificate Provider in Hyderabad Bangalore Chennai Pune Mumbai Noida New Delhi",
+                "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": "https://experiencecertificateindia.com/?s={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                }
+            }, {
+                "@type": "ImageObject",
+                "@id": "https://experiencecertificateindia.com/#primaryimage",
+                "inLanguage": "en-US",
+                "url": "https://experiencecertificateindia.com/image/genuine-experience-certificate-provider-with-100%25-verification.jpg",
+                "width": 1440,
+                "height": 1920
+            }, {
+                "@type": "WebPage",
+                "@id": "https://experiencecertificateindia.com/#website",
+                "url": "https://experiencecertificateindia.com/",
+                "name": "Genuine Experience Certificate Provider in Hyderabad Bangalore Chennai Pune Mumbai Noida New Delhi",
+                "image": "https://experiencecertificateindia.com/image/verification-guaranty.png",
+                "email": "help@experiencecertificateindia.com",
+                "isPartOf": {
+                    "@id": "https://experiencecertificateindia.com/#website"
+                },
+                "inLanguage": "en-US",
+                "primaryImageOfPage": {
+                    "@id": "https://experiencecertificateindia.com/#primaryimage"
+                },
+                "datePublished": "2015-01-14T04:13:46+00:00",
+                "dateModified": "2020-08-20T11:14:24+00:00"
+            }]
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "name": "Genuine Experience Certificate provider",
+            "url": "https://experiencecertificateindia.com/",
+            "logo": "https://experiencecertificateindia.com/exp.certificate-india-logo.png",
+            "description": "Best Experience Certificate Provider in India, Provide Genuine Experience Certificate and Documents that are verified from Trusted Sources and will ensure 100% authenticity.",
+            "telephone": "+91.9560.241.239",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.6",
+                "bestRating": "5",
+                "ratingCount": "1000"
+            },
+            "sameAs": [
+                "https://www.facebook.com/experiencecertificateprovider",
+                "https://twitter.com/expcertificate",
+                "https://www.instagram.com/experiencecertificateprovider/",
+                "https://www.linkedin.com/in/experience-certificate/",
+                "https://medium.com/@experiencecertificateprovider/experience-certificate-provider-india-98f258ff9d9",
+                "https://experiencecertificateindia.blogspot.com/"
+            ]
+        }
+    </script>
+    <!--[if lt IE 9]><script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
+    <!--Script Js End-->
+
+
+<div id="ascrail2000" class="nicescroll-rails nicescroll-rails-vr" style="width: 8px; z-index: auto; cursor: default; position: fixed; top: 0px; height: 100%; right: 0px; opacity: 0; display: block;"><div class="nicescroll-cursors" style="position: relative; top: 0px; float: right; width: 6px; height: 165px; background-color: rgb(66, 66, 66); border: 1px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 5px;"></div></div><div id="ascrail2000-hr" class="nicescroll-rails nicescroll-rails-hr" style="height: 8px; z-index: auto; position: fixed; left: 0px; width: 100%; bottom: 0px; cursor: default; display: none; opacity: 0;"><div class="nicescroll-cursors" style="position: absolute; top: 0px; height: 6px; width: 1366px; background-color: rgb(66, 66, 66); border: 1px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 5px; left: 0px;"></div></div>
+<script type="text/javascript" id="">_atrk_opts={atrk_acct:"6pkdv1hNdI20fn",domain:"experiencecertificateindia.com",dynamic:!0};(function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="https://certify-js.alexametrics.com/atrk.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();</script>
+<noscript><img src="https://certify.alexametrics.com/atrk.gif?account=6pkdv1hNdI20fn" style="display:none" height="1" width="1" alt=""></noscript>
+  
+<script type="text/javascript" id="">_atrk_opts={atrk_acct:"6pkdv1hNdI20fn",domain:"experiencecertificateindia.com",dynamic:!0};(function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="https://certify-js.alexametrics.com/atrk.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();</script>
+<noscript><img src="https://certify.alexametrics.com/atrk.gif?account=6pkdv1hNdI20fn" style="display:none" height="1" width="1" alt=""></noscript>
+  <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [{
+                "@type": "WebSite",
+                "name": "Genuine Experience Certificate provider",
+                "image": "https://experiencecertificateindia.com/image/verification-guaranty.png",
+                "email": "help@experiencecertificateindia.com",
+                "@id": "https://experiencecertificateindia.com/#website",
+                "url": "https://experiencecertificateindia.com/",
+                "inLanguage": "en-US",
+                "description": "Genuine Experience Certificate Provider in Hyderabad Bangalore Chennai Pune Mumbai Noida New Delhi",
+                "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": "https://experiencecertificateindia.com/?s={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                }
+            }, {
+                "@type": "ImageObject",
+                "@id": "https://experiencecertificateindia.com/#primaryimage",
+                "inLanguage": "en-US",
+                "url": "https://experiencecertificateindia.com/image/genuine-experience-certificate-provider-with-100%25-verification.jpg",
+                "width": 1440,
+                "height": 1920
+            }, {
+                "@type": "WebPage",
+                "@id": "https://experiencecertificateindia.com/#website",
+                "url": "https://experiencecertificateindia.com/",
+                "name": "Genuine Experience Certificate Provider in Hyderabad Bangalore Chennai Pune Mumbai Noida New Delhi",
+                "image": "https://experiencecertificateindia.com/image/verification-guaranty.png",
+                "email": "help@experiencecertificateindia.com",
+                "isPartOf": {
+                    "@id": "https://experiencecertificateindia.com/#website"
+                },
+                "inLanguage": "en-US",
+                "primaryImageOfPage": {
+                    "@id": "https://experiencecertificateindia.com/#primaryimage"
+                },
+                "datePublished": "2015-01-14T04:13:46+00:00",
+                "dateModified": "2020-08-20T11:14:24+00:00"
+            }]
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "name": "Genuine Experience Certificate provider",
+            "url": "https://experiencecertificateindia.com/",
+            "logo": "https://experiencecertificateindia.com/exp.certificate-india-logo.png",
+            "description": "Best Experience Certificate Provider in India, Provide Genuine Experience Certificate and Documents that are verified from Trusted Sources and will ensure 100% authenticity.",
+            "telephone": "+91.9560.241.239",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "bestRating": "5",
+                "ratingCount": "1000"
+            },
+            "sameAs": [
+                "https://www.facebook.com/experiencecertificateprovider",
+                "https://twitter.com/expcertificate",
+                "https://www.instagram.com/experiencecertificateprovider/",
+                "https://www.linkedin.com/in/experience-certificate/"
+            ]
+        }
+    </script>
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","396938915841029");fbq("set","agent","tmgoogletagmanager","396938915841029");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=396938915841029&amp;ev=PageView&amp;noscript=1"></noscript>
+<style id="app_ajhbdcgfhlhhmocddefknjjkejcfpbnj_style">html,
+body,
+body *,
+html body *,
+html body.ds *,
+html body div *,
+html body span *,
+html body p *,
+html body h1 *,
+html body h2 *,
+html body h3 *,
+html body h4 *,
+html body h5 *,
+html body h5 *,
+html body h5 *,
+html
+  body
+  *:not(input):not(textarea):not([contenteditable=""]):not(
+    [contenteditable="true"]
+  ) {
+  user-select: text !important;
+  pointer-events: initial !important;
+}
+html body *:not(input):not(textarea)::selection,
+body *:not(input):not(textarea)::selection,
+html body div *:not(input):not(textarea)::selection,
+html body span *:not(input):not(textarea)::selection,
+html body p *:not(input):not(textarea)::selection,
+html body h1 *:not(input):not(textarea)::selection,
+html body h2 *:not(input):not(textarea)::selection,
+html body h3 *:not(input):not(textarea)::selection,
+html body h4 *:not(input):not(textarea)::selection,
+html body h5 *:not(input):not(textarea)::selection {
+  background-color: #3297fd !important;
+  color: #ffffff !important;
+}
+
+/* linkedin */
+/* squize */
+.www_linkedin_com
+  .sa-assessment-flow__card.sa-assessment-quiz
+  .sa-assessment-quiz__scroll-content
+  .sa-assessment-quiz__response
+  .sa-question-multichoice__item.sa-question-basic-multichoice__item
+  .sa-question-multichoice__input.sa-question-basic-multichoice__input.ember-checkbox.ember-view {
+  width: 40px;
+}
+/*linkedin*/
+
+/*instagram*/
+/*wall*/
+.www_instagram_com ._aagw {
+  display: none;
+}
+
+/*developer.box.com*/
+.bp-doc .pdfViewer .page:not(.bp-is-invisible):before {
+  display: none;
+}
+
+/*telegram*/
+.web_telegram_org .emoji-animation-container {
+  display: none;
+}
+
+/*ladno_ru*/
+.ladno_ru [style*="position: absolute; left: 0; right: 0; top: 0; bottom: 0;"] {
+  display: none !important;
+}
+
+/*mycomfyshoes.fr */
+.mycomfyshoes_fr #fader.fade-out {
+  display: none !important;
+}
+
+/*www_mindmeister_com*/
+.www_mindmeister_com .kr-view {
+  z-index: -1 !important;
+}
+
+/*www_newvision_co_ug*/
+.www_newvision_co_ug .v-snack:not(.v-snack--absolute) {
+  z-index: -1 !important;
+}
+
+/*derstarih_com*/
+.derstarih_com .bs-sks {
+  z-index: -1;
+}
+</style><allow-copy-helper></allow-copy-helper></body></html>
