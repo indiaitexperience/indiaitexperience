@@ -441,7 +441,7 @@ img:hover {
 }
 
 .hit-mesage {
-	background: url(../images/experience-certificate-india.jpg)no-repeat;
+	background: url(../images/experience-certificate-india.webp)no-repeat;
 	height: 509px;
 	width: 100%;
 	background-size: cover;
@@ -588,7 +588,7 @@ img:hover {
 
 .vsuport-pro::before {
 	content: '';
-	background: url(../images/verification-guaranty.png) no-repeat;
+	background: url(../images/verification-guaranty.webp) no-repeat;
 	width: 156px;
 	height: 20vh;
 	position: absolute;
@@ -598,7 +598,7 @@ img:hover {
 
 .vsuport-pro::after {
 	content: '';
-	background: url(../images/email-phone-physical-verification%20guaranty.png) no-repeat;
+	background: url(../images/email-phone-physical-verification%20guaranty.webp) no-repeat;
 	width: 369px;
 	height: 20vh;
 	position: absolute;
@@ -1051,7 +1051,7 @@ img:hover {
 }
 
 .Inter-certi {
-	background: url(../images/Careers-internship.jpg)no-repeat;
+	background: url(../images/Careers-internship.webp)no-repeat;
 	height: 469px;
 	width: 100%;
 	background-size: cover;
@@ -2019,7 +2019,7 @@ img:hover {
 }
 
 .aboutUS {
-	background: url(../images/about.jpg) no-repeat;
+	background: url(../images/about.webp) no-repeat;
 	height: 450px;
 	width: 100%;
 	background-size: cover;
